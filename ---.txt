@@ -1,0 +1,50 @@
+---
+name: post-session-followup
+description: Use when drafting post-class thank-you messages, testimonial requests, and next-session invites after a workout. Triggers on "draft follow-ups", "post-session messages", "send thank yous", or "follow up with attendees".
+owner: Kasia Brandt, Communicator
+created: 2026-10-18
+---
+
+# Post-Session Follow-Up & Testimonial Generator
+
+## When to use
+- Right after a live or recorded gym session ends to message attendees.
+- When you need to turn quick session notes into warm, personalized follow-ups.
+- When asking past attendees for quick testimonials or feedback.
+- Do not use for initial launch announcements or marketing campaign strategy.
+
+## Inputs needed
+- List of attendees and quick notes (Required. If missing, ask: "Who attended the session, and what is one brief note or highlight for each person?")
+- Next session date and booking link (Required. If missing, ask: "What is the date and link for the next session?")
+
+## Steps
+1. Review the attendee notes and separate first-time attendees from returning regulars.
+2. Draft a personalized 2 to 3-sentence thank-you message for each participant.
+3. Include the specific highlight or positive observation mentioned in the input notes.
+4. Add a low-pressure request for a short 1-sentence feedback or testimonial[cite: 7].
+5. Append the booking link for the upcoming session.
+6. Format the output into copy-pasteable blocks with participant names clearly labeled.
+
+## Output contract
+- Length: 3 to 4 sentences per attendee.
+- Format: Labeled text blocks ready to copy into WhatsApp, SMS, or direct messages.
+- What must be in the output: Warm greeting, specific note/highlight, feedback/testimonial question, next link.
+- What must not be in the output: Generic marketing slogans, lengthy sales pitches, or artificial cheerleading[cite: 7].
+- Example skeleton:
+  **For [Name]:**
+  Hi [Name]! Thanks so much for joining today's session. You did an amazing job with [highlight note]! If you enjoyed it, I'd love a quick 1-sentence testimonial on how you felt after. Here is the link to reserve your spot for next week: [Link].
+
+## One worked example
+- Inputs: 
+  * Sarah (first-timer, great form on lunges)
+  * Mark (regular, pushed through the final core set)
+  * Next session: Thursday 7 PM (link: gym.link/thu)
+- Output:
+  **For Sarah:**
+  Hi Sarah! Thanks so much for joining your first session today! Your form on those lunges was spot on. If you enjoyed the workout, I’d love a quick 1-sentence review of how you felt afterwards. Here’s the link if you’d like to join us again next Thursday at 7 PM: gym.link/thu
+
+  **For Mark:**
+  Hey Mark! Great seeing you back today! Way to power through that final core set at the end. If you have 30 seconds, I'd love a quick line on how the progressive workouts are feeling for you so far. Here's the link to lock in your spot for Thursday: gym.link/thu
+
+## Test it
+Say to your assistant with Kasia loaded: "Draft follow-ups for Sarah (first session, loved the stretch) and Mark (great effort on cardio). Next session is Saturday with link gym.link/sat."
